@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+:root {
+    --cor-destaque: #450678;
+  }
+
+.card-body h2 {
+    color: #450678;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.card-body label {
+    color: #450678;
+    font-size: 0.9rem;
+}
+
+.card-body input{
+    border-color: #450678;
+}
+
+.card-body a {
+    color: #450678;
+    font-weight: 700;
+    font-size: 0.8rem;
+
+}
+
+.card-body span {
+    color: #e8a137;
+}
+
+.card-body button {
+    border: none;
+    background-color: #e8a137;
+
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+    .card-body h2 {
+            font-size: 1.7rem;
+        }
+        
+        .card-body label {
+            font-size: 0.8rem;
+        }
+        
+        .card-body a {
+            color: #450678;
+            font-weight: 700;
+            font-size: 0.7rem;
+        
+        }
+        
+        .card-body button {
+            font-size: 0.9rem;
+        }
+    }
